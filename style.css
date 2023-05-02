@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Londrina+Shadow&family=Poller+One&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    font-weight: 500;
+    font-family: 'Fjalla One', sans-serif;
+    background-color:rgb(130, 15, 238);
+    background-image: url(/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+    
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 550;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    color:white;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    z-index: 99;
+
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.pic {
+    font-weight: 500;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.sec-home {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction:row-reverse;
+    padding: 20px 10%;
+    height: 100vh;
+    top: 45px;
+
+}
+
+.content h1 {
+    font-weight: 550;
+    font-size: 50px;
+    color: white; 
+    max-width: fit-content;
+}
+
+.content p {
+    color: whitesmoke;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.content button {
+    width: 35%;
+    margin-top: 25px;
+    transition: .5s;
+}
+
+#button:hover {
+background-color: pink;
+color: white;
+}
+
+.side-cont {
+    position: relative;
+    width: 100%;
+    margin-right: 50px;
+    max-width: fit-content;
+    width: 100%;
+}
+
+.footer{
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.footer a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.footer a:hover {
+    background-color: transparent;
+    color: rgb(226, 146, 173);
+}
+
+
+
+
+
